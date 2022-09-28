@@ -1,0 +1,96 @@
+.background {
+   color: white;
+   background-image: url("background.jpg");
+   height: 100vh;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: top;
+   position: relative;
+
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ .container {
+      width: 63%;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+
+header{
+    text-align: center;
+    color: rgb(0, 255, 0);
+}
+
+.logo {
+   width: 250px;
+   margin-top: 80px;
+  }
+
+ nav, main {
+   width: 80%;
+   margin: auto;
+}
+
+nav{
+  background-color: rgb(0, 255, 0);
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+
+ button{
+   height: 23px;
+}
+
+.item {
+margin-top: 20px;
+}
+
+.nav .text {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+
+.name{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.address, .status{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.charge1{
+  height: 30px;
+  width: 35%;
+  background-color: rgb(255,153,51);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.charge2{
+  height: 30px;
+  width: 55%;
+  background-color: rgb(0,204,0);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.charge3{
+  height: 30px;
+  width: 15%;
+  background-color: rgb(255,51,51);
+  border-radius: 8px;
+  margin-bottom: 150px;
+}
